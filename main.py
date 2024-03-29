@@ -3,9 +3,6 @@ from telebot import types
 import sqlite3
 
 
-TOKEN = '5926146786:AAEv8uwun-hvH-cATow-xYzwegIAN5Z9J38'
-bot = telebot.TeleBot('5926146786:AAEv8uwun-hvH-cATow-xYzwegIAN5Z9J38')
-
 
 @bot.message_handler(commands=['start'])
 def menu(message):
